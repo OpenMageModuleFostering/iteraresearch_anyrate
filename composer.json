@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/IteraResearch_AnyRate",
+    "type": "magento-module",
+    "license": "Lesser-General-Public-License",
+    "homepage": "",
+    "description": "AnyRate - Custom Shipping Rates",
+    "authors": [
+    {
+        "name": "IteraResearch",
+        "email": "magentocommerce@itera-research.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

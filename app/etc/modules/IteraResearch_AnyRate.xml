@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of AnyRate extension.
+ *
+ * @category    IteraResearch
+ * @package     IteraResearch_AnyRate
+ * @copyright   Copyright (c) 2003-2015 Itera Research, Inc. All rights reserved. (http://www.itera-research.com/)
+ * @license     http://www.gnu.org/licenses Lesser General Public License
+ */
+-->
+<config>
+    <modules>
+        <IteraResearch_AnyRate>
+            <active>true</active>
+            <codePool>community</codePool>
+        </IteraResearch_AnyRate>
+    </modules>
+</config>
