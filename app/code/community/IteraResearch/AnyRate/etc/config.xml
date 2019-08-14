@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of AnyRate extension.
+ *
+ * @category    IteraResearch
+ * @package     IteraResearch_AnyRate
+ * @copyright   Copyright (c) 2003-2015 Itera Research, Inc. All rights reserved. (http://www.itera-research.com/)
+ * @license     http://www.gnu.org/licenses Lesser General Public License
+ */
+-->
+<config>
+    <modules>
+        <IteraResearch_AnyRate>
+            <version>1.0.1</version>
+        </IteraResearch_AnyRate>
+    </modules>
+    <global>
+        <models>
+            <anyrate>
+                <class>IteraResearch_AnyRate_Model</class>
+            </anyrate>
+        </models>
+        <blocks>
+            <anyrate>
+                <class>IteraResearch_AnyRate_Block</class>
+            </anyrate>
+        </blocks>
+        <sales>
+            <shipping>
+                <carriers>
+                    <anyrate>
+                        <class>IteraResearch_AnyRate_Model_AnyRate</class>
+                    </anyrate>
+                </carriers>
+            </shipping>
+        </sales>
+    </global>
+    <default>
+        <carriers>
+            <anyrate>
+                <model>anyrate/anyrate</model>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <title>Any Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </anyrate>
+        </carriers>
+    </default>
+</config> 

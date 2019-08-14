@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>IteraResearch_AnyRate</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses">Lesser General Public License</license>
     <channel>community</channel>
     <extends/>
     <summary>AnyRate - Custom Shipping Rates</summary>
     <description>Allow to define multiple shipping rates with custom rate title and price. Each rate can be assigned to particular customer group, so customers from assigned group only can see the rate at the shipping method step in the checkout page.</description>
-    <notes>Has no sql setup, supports multi-store, rates can be assigned per customer group.</notes>
+    <notes>Has no sql setup, supports multi-store, rates can be assigned per customer group. Package content fixed.</notes>
     <authors><author><name>IteraResearch</name><user>IteraResearch</user><email>magentocommerce@itera-research.com</email></author></authors>
-    <date>2015-06-02</date>
-    <time>17:57:50</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="IteraResearch_AnyRate.xml" hash="83d3932fd48c92d54453ce92c0c35330"/></dir></target></contents>
+    <date>2015-06-19</date>
+    <time>10:58:17</time>
+    <contents><target name="magecommunity"><dir name="IteraResearch"><dir name="AnyRate"><dir name="Block"><dir name="Adminhtml"><dir name="Form"><dir name="Field"><file name="Group.php" hash="a92b48601aa4b0e9822c9259c6baf9f8"/><file name="Rates.php" hash="9e57b4f9f5139e962ccd71d33ee11f86"/></dir></dir></dir></dir><dir name="Model"><file name="AnyRate.php" hash="28613d909113fc30897f17628f075bd9"/><dir name="System"><dir name="Config"><dir name="Backend"><file name="Rates.php" hash="81d22e1a8ca77f7a6048516f94b5dc3b"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="5b0db614cf27994deb80d701946822ae"/><file name="system.xml" hash="ce1cad213d730205ef3a97572bfe910d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IteraResearch_AnyRate.xml" hash="83d3932fd48c92d54453ce92c0c35330"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0.0</min><max>1.9.1.0</max></package><extension><name>Core</name><min/><max/></extension></required></dependencies>
 </package>
